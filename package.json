@@ -1,0 +1,26 @@
+{
+  "name": "cplusplus",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "engines": {
+    "node": "16.9.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "ion",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "discord-player": "^5.2.2",
+    "discord.js": "^13.8.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.4.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.11.0"
+  }
+}
